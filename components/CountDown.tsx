@@ -43,7 +43,7 @@ const Countdown: React.FC<CountdownTimerProps> = ({ targetDate }) => {
   }, []);
 
   return (
-    <div className="md:flex gap-10 text-black  items-center justify-center">
+    <div className="grid md:grid-cols-4 mx-auto gap-10 text-black  items-center justify-center">
       <div className="p-5 size-32 rounded-sm bg-white text-3xl font-bold  text-center">
         <p className="mb-2">D</p>
         <p>{timeRemaining.days}</p>
