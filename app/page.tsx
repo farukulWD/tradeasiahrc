@@ -13,11 +13,11 @@ export default function Home() {
               Welcome To Trade Asia HRC (pvt.) Limited
             </h1>
             <p className="text-xl">
-              THE TRADE ASIA HRC (PVT.) LIMITED HAS STARTED OPERATION AS AN
-              ENGINE OIL IMPORTER COMPANY.
+              TRADE ASIA HRC (PVT.) LIMITED HAS STARTED OPERATION AS AN ENGINE
+              OIL IMPORTER COMPANY.
             </p>
           </div>
-          <div className=" mt-[50px] md:mt-[120px]">
+          <div className="w-[80%] mx-auto mt-[50px] md:mt-[120px]">
             <Countdown targetDate={targetDate}></Countdown>
           </div>
         </div>
