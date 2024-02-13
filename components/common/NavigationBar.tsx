@@ -27,7 +27,7 @@ export default function NavigationBar() {
           className="sm:hidden"
         />
         <NavbarBrand>
-          <p className="font-bold text-inherit">THE TRADE ASIA HRC</p>
+          <p className="font-bold text-inherit">TRADE ASIA HRC</p>
         </NavbarBrand>
       </NavbarContent>
 
