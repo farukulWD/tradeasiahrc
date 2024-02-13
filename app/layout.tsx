@@ -6,7 +6,7 @@ import { Providers } from "../components/providers/providers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "THE TRADE ASIA HRC (PVT.)",
+  title: "TRADE ASIA HRC (PVT.)",
   description:
     "THE TRADE ASIA HRC (PVT.) LIMITED HAS STARTED OPERATION AS AN ENGINE OIL IMPORTER COMPANY.Also we involved with business like Export, Import, Supply, Manufacturing, Real estate, Construction, Agro, Information Technology, Chemical, Pharmaceutical, E-commerce, Food and Beverage.We strive relentlessly to meet and exceed applicable standards and bear a great responsibility for people, machines and the environment. Satisfied and delighted customers are the top priority in our corporate philosophy. We offer great back up support services to our customers so as together we tackle the difficult task and solve them with both experience and commitments in focused team work.",
 };
