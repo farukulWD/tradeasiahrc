@@ -6,18 +6,35 @@ import {
   NavbarBrand,
   NavbarContent,
   NavbarItem,
-  Link,
   Button,
   NavbarMenuToggle,
   NavbarMenu,
   NavbarMenuItem,
+  Link,
 } from "@nextui-org/react";
 import { ThemeSwitcher } from "@/components/providers/ThemeSwitcher";
 
 export default function NavigationBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const menuItems = [];
+  const menuItems = [
+    {
+      title: "Home",
+      route: "/",
+    },
+    {
+      title: "About",
+      route: "/about",
+    },
+    {
+      title: "History",
+      route: "/history",
+    },
+    {
+      title: "Products",
+      route: "/products",
+    },
+  ];
 
   return (
     <Navbar onMenuOpenChange={setIsMenuOpen} maxWidth="xl">
@@ -31,47 +48,38 @@ export default function NavigationBar() {
         </NavbarBrand>
       </NavbarContent>
 
-      {/* <NavbarContent className="hidden sm:flex gap-4" justify="center">
-        <NavbarItem>
-          <Link color="foreground" href="#">
-            Features
-          </Link>
-        </NavbarItem>
-        <NavbarItem isActive>
-          <Link href="#" aria-current="page">
-            Customers
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link color="foreground" href="#">
-            Integrations
-          </Link>
-        </NavbarItem>
-      </NavbarContent> */}
+      <NavbarContent className="hidden sm:flex gap-4" justify="center">
+        {menuItems.map((item, index) => (
+          <NavbarItem key={`${item}-${index}`}>
+            <Link
+              color="foreground"
+              className="w-full"
+              href={item.route}
+              size="lg"
+            >
+              {item.title}
+            </Link>
+          </NavbarItem>
+        ))}
+      </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem className="hidden lg:flex">
           <ThemeSwitcher></ThemeSwitcher>
         </NavbarItem>
       </NavbarContent>
       <NavbarMenu>
-        {/* {menuItems.map((item, index) => (
+        {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
             <Link
-              color={
-                index === 2
-                  ? "primary"
-                  : index === menuItems.length - 1
-                  ? "danger"
-                  : "foreground"
-              }
+              color="foreground"
               className="w-full"
-              href="#"
+              href={item.route}
               size="lg"
             >
-              {item}
+              {item.title}
             </Link>
           </NavbarMenuItem>
-        ))} */}
+        ))}
         <ThemeSwitcher></ThemeSwitcher>
       </NavbarMenu>
     </Navbar>
