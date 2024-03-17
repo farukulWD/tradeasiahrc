@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import logo from "../../public/logo.png";
+import { menuItems } from "../../public/menuItems";
 
 import {
   Navbar,
@@ -18,25 +19,6 @@ import Image from "next/image";
 
 export default function NavigationBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const menuItems = [
-    {
-      title: "Home",
-      route: "/",
-    },
-    {
-      title: "About",
-      route: "/about",
-    },
-    {
-      title: "History",
-      route: "/history",
-    },
-    {
-      title: "Products",
-      route: "/products",
-    },
-  ];
 
   return (
     <Navbar onMenuOpenChange={setIsMenuOpen} maxWidth="xl">

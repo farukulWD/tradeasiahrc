@@ -2,37 +2,40 @@
   {
     "id": 1,
     "image": "/high-performance-vehicles.jpg",
-    "title": "Smooth Rides Await: Powering Your Journey with Premium Lubricants",
+    "title": "Smooth Rides Await Premium Lubricants",
     "subtitle": "Unleash Performance, Efficiency, and Longevity with Our Expert Solutions"
   },
   {
     "id": 2,
-    "image": "/high-performance-vehicles.jpg",
-    "title": "Enhance Your Engine's Lifespan: Optimal Lubrication for Peak Performance",
+    "image": "/scenic-landscapes.jpg",
+    "title": "Enhance Your Engine's Lifespan",
     "subtitle": "Discover Our Range of High-Quality Lubricants for Ultimate Protection"
   },
   {
     "id": 3,
-    "image": "/high-performance-vehicles.jpg",
-    "title": "Drive with Confidence: Unmatched Lubrication for Every Terrain",
+    "image": "/mechanical-components.jpg",
+    "title": "Drive with Confidence",
     "subtitle": "Trust Our Products to Safeguard Your Vehicle's Performance and Durability"
   },
+
   {
     "id": 4,
     "image": "/high-performance-vehicles.jpg",
-    "title": "Efficiency Redefined: Achieve Superior Fuel Economy with Our Lubricants",
+    "title": "Efficiency Redefined",
     "subtitle": "Maximize Your Vehicle's Potential and Minimize Costs with Our Solutions"
   },
+
   {
     "id": 5,
     "image": "/high-performance-vehicles.jpg",
-    "title": "Performance Unleashed: Dominate the Road with Our Premium Lubricants",
+    "title": "Performance Unleashed",
     "subtitle": "Experience the Difference with Our Cutting-Edge Formulations"
   },
+
   {
     "id": 6,
     "image": "/high-performance-vehicles.jpg",
-    "title": "Stay Ahead of the Curve: Elevate Your Driving Experience Today",
+    "title": "Stay Ahead of the Curve",
     "subtitle": "Partner with Us for Unbeatable Lubrication Solutions and Unmatched Support"
   }
 ]
