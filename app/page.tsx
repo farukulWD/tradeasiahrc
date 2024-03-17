@@ -1,4 +1,5 @@
 import NavigationBar from "@/components/common/NavigationBar";
+import HeroSlider from "@/components/heroSlider/HeroSlider";
 
 export default function Home() {
   // const targetDate = new Date("2024-04-13T00:00:00Z");
@@ -6,7 +7,7 @@ export default function Home() {
     <main className="">
       <NavigationBar></NavigationBar>
       <div className=" h-[calc(100vh-64px)]">
-        <div className="max-w-[1280px] px-[24px] mx-auto">
+        <div className="my_container">
           <div color="foreground" className="text-center py-10">
             <h1 className="text-4xl mb-6 mt-10 font-extrabold">
               Welcome To Trade Asia HRC (pvt.) Limited
@@ -16,6 +17,7 @@ export default function Home() {
               OIL IMPORTER COMPANY.
             </p>
           </div>
+          <HeroSlider></HeroSlider>
         </div>
       </div>
     </main>

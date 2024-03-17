@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import logo from "../../public/logo.png";
 
 import {
   Navbar,
@@ -13,6 +14,7 @@ import {
 } from "@nextui-org/react";
 import { ThemeSwitcher } from "@/components/providers/ThemeSwitcher";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function NavigationBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -44,7 +46,12 @@ export default function NavigationBar() {
           className="sm:hidden"
         />
         <NavbarBrand>
-          <p className="font-bold text-inherit">TRADE ASIA HRC</p>
+          <Image
+            src={logo}
+            alt="Trade Asia HRC"
+            width={150}
+            height={50}
+          ></Image>
         </NavbarBrand>
       </NavbarContent>
 
