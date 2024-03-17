@@ -32,16 +32,21 @@ const HeroSlider = () => {
       >
         {sliders?.map((slider) => (
           <SwiperSlide key={slider?.id}>
-            <div className="grid grid-cols-2 items-center">
-              <div>
-                <h2>{slider?.title}</h2>
-                <p>{slider?.subtitle}</p>
+            <div className="grid grid-cols-2 gap-6 items-center">
+              <div className="">
+                <h2 className="text-xl lg:text-3xl text-[#fe3231] font-bold mb-3">
+                  {slider?.title}
+                </h2>
+                <p className="text-xl hidden md:block  font-semibold">
+                  {slider?.subtitle}
+                </p>
               </div>
               <div>
                 <Image
+                  className="rounded-sm w-[100%] h-[100%] object-cover"
                   src={slider?.image}
-                  width={500}
-                  height={200}
+                  width={1000}
+                  height={600}
                   alt={slider?.title}
                 ></Image>
               </div>

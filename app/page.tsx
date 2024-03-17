@@ -6,13 +6,13 @@ export default function Home() {
   return (
     <main className="">
       <NavigationBar></NavigationBar>
-      <div className=" h-[calc(100vh-64px)]">
+      <div className="">
         <div className="my_container">
           <div color="foreground" className="text-center py-10">
-            <h1 className="text-4xl mb-6 mt-10 font-extrabold">
+            <h1 className="text-2xl md:text-4xl text-[#fe3231] mb-6 mt-10 font-extrabold">
               Welcome To Trade Asia HRC (pvt.) Limited
             </h1>
-            <p className="text-xl">
+            <p className=" text-sm md:text-xl">
               TRADE ASIA HRC (PVT.) LIMITED HAS STARTED OPERATION AS AN ENGINE
               OIL IMPORTER COMPANY.
             </p>
