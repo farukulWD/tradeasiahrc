@@ -10,7 +10,13 @@ import {
   Button,
 } from "@nextui-org/react";
 
-type TModal = {};
+type TModal = {
+  children: ReactNode;
+  isOpen: boolean;
+  onOpen: any;
+  onOpenChange: any;
+  title: string;
+};
 
 export default function CommonModal({
   children,
@@ -18,7 +24,7 @@ export default function CommonModal({
   onOpen,
   onOpenChange,
   title,
-}) {
+}: TModal) {
   return (
     <>
       <Modal isOpen={isOpen} onOpenChange={onOpenChange}>
