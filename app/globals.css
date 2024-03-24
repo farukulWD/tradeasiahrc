@@ -3,9 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .main {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/bg.jpg");
-  background-size: cover;
-  background-position: center center;
-} */
+:root {
+  --primary-color: #fe3231;
+  --secondary-color: #000;
+}

@@ -1,0 +1,303 @@
+[
+  {
+    "_id": "LUB003",
+    "image": "https://i.ibb.co/rkwNWsT/Max-Grip-High-Performance-Grease.jpg",
+    "name": "MaxGrip High-Performance Grease",
+    "price": "$7.99",
+    "rating": "4.2/5",
+    "lastUpdate": "2024-03-24",
+    "ownerCountry": "Germany",
+    "description": "MaxGrip High-Performance Grease is designed to provide maximum protection and lubrication in demanding applications. Its advanced formula ensures superior adhesion and resistance to water washout, making it ideal for use in automotive, marine, and industrial environments."
+  },
+  {
+    "_id": "LUB001",
+    "image": "https://i.ibb.co/5YG45rG/Ultra-Glide-Synthetic-Lubricant.webp",
+    "name": "UltraGlide Synthetic Lubricant",
+    "price": "$9.99",
+    "rating": "4.5/5",
+    "lastUpdate": "2024-03-24",
+    "ownerCountry": "USA",
+    "description": "UltraGlide Synthetic Lubricant is specially formulated to provide superior lubrication for a wide range of applications. Its advanced synthetic formula ensures long-lasting protection against friction and wear, making it ideal for use in automotive, industrial, and household settings."
+  },
+  {
+    "_id": "LUB002",
+    "image": "https://i.ibb.co/SytPrFd/Power-Lube-Advanced-Engine-Oil.jpg",
+    "name": "PowerLube Advanced Engine Oil",
+    "price": "$12.49",
+    "rating": "4.8/5",
+    "lastUpdate": "2024-03-24",
+    "ownerCountry": "Canada",
+    "description": "PowerLube Advanced Engine Oil is engineered to deliver exceptional performance and protection for high-performance engines. Its advanced formula helps reduce friction, improve fuel efficiency, and enhance engine longevity. Ideal for use in cars, trucks, motorcycles, and other vehicles."
+  },
+
+  {
+    "_id": "LUB004",
+    "image": "https://i.ibb.co/3cbDtF2/Eco-Lube-Bio-Degradable-Lubricant.jpg",
+    "name": "EcoLube Bio-Degradable Lubricant",
+    "price": "$14.99",
+    "rating": "4.6/5",
+    "lastUpdate": "2024-03-24",
+    "ownerCountry": "Australia",
+    "description": "EcoLube Bio-Degradable Lubricant is an environmentally friendly lubricant that offers exceptional performance without harming the planet. Its biodegradable formula is safe for use in sensitive ecosystems and provides excellent lubrication for a variety of applications."
+  },
+  {
+    "_id": "LUB005",
+    "image": "https://i.ibb.co/rkwNWsT/Max-Grip-High-Performance-Grease.jpg",
+    "name": "SmoothRide Bicycle Chain Oil",
+    "price": "$6.99",
+    "rating": "4.4/5",
+    "lastUpdate": "2024-03-24",
+    "ownerCountry": "Japan",
+    "description": "SmoothRide Bicycle Chain Oil is specially formulated to keep bicycle chains running smoothly and quietly. Its high-quality formula penetrates deep into the chain links to provide long-lasting lubrication and protection against rust and corrosion. Perfect for cyclists of all levels."
+  },
+  {
+    "_id": "LUB006",
+    "image": "https://i.ibb.co/3cbDtF2/Eco-Lube-Bio-Degradable-Lubricant.jpg",
+    "name": "TurboCharge Turbocharger Lubricant",
+    "price": "$19.99",
+    "rating": "4.7/5",
+    "lastUpdate": "2024-03-24",
+    "ownerCountry": "USA",
+    "description": "TurboCharge Turbocharger Lubricant is specially designed to provide optimal lubrication and protection for turbocharger systems. Its advanced formula helps reduce friction and wear, ensuring smooth operation and extended turbocharger life. Ideal for performance enthusiasts and automotive professionals."
+  },
+  {
+    "_id": "LUB007",
+    "image": "https://i.ibb.co/3cbDtF2/Eco-Lube-Bio-Degradable-Lubricant.jpg",
+    "name": "MarineGuard Marine Grease",
+    "price": "$11.99",
+    "rating": "4.3/5",
+    "lastUpdate": "2024-03-24",
+    "ownerCountry": "Canada",
+    "description": "MarineGuard Marine Grease is specifically formulated to withstand the harsh conditions of marine environments. Its high-performance formula provides excellent corrosion protection and water resistance, making it ideal for use in boat trailers, winches, and other marine applications."
+  },
+  {
+    "_id": "LUB008",
+    "image": "https://i.ibb.co/3cbDtF2/Eco-Lube-Bio-Degradable-Lubricant.jpg",
+    "name": "IndustrialPro Heavy Machinery Oil",
+    "price": "$29.99",
+    "rating": "4.9/5",
+    "lastUpdate": "2024-03-24",
+    "ownerCountry": "USA",
+    "description": "IndustrialPro Heavy Machinery Oil is engineered to meet the rigorous demands of heavy-duty industrial equipment. Its high-viscosity formula provides superior lubrication and wear protection, ensuring optimal performance and extended equipment life. Suitable for use in hydraulic systems, gears, and bearings."
+  },
+  {
+    "_id": "LUB009",
+    "image": "https://i.ibb.co/3cbDtF2/Eco-Lube-Bio-Degradable-Lubricant.jpg",
+    "name": "SilkGlide Door Hinge Lubricant",
+    "price": "$5.49",
+    "rating": "4.0/5",
+    "lastUpdate": "2024-03-24",
+    "ownerCountry": "UK",
+    "description": "SilkGlide Door Hinge Lubricant is specially formulated to keep door hinges operating smoothly and quietly. Its unique formula penetrates deep into the hinge mechanism to provide long-lasting lubrication and protection against corrosion. Ideal for use in residential and commercial door systems."
+  },
+  {
+    "_id": "LUB010",
+    "image": "https://i.ibb.co/3cbDtF2/Eco-Lube-Bio-Degradable-Lubricant.jpg",
+    "name": "UltraWear Anti-Friction Spray",
+    "price": "$8.99",
+    "rating": "4.6/5",
+    "lastUpdate": "2024-03-24",
+    "ownerCountry": "Germany",
+    "description": "UltraWear Anti-Friction Spray is designed to reduce friction and wear in a variety of applications. Its advanced formula forms a durable protective layer on metal surfaces, reducing friction and extending component life. Suitable for use in automotive, industrial, and household equipment."
+  },
+  {
+    "_id": "LUB011",
+    "image": "https://i.ibb.co/3cbDtF2/Eco-Lube-Bio-Degradable-Lubricant.jpg",
+    "name": "SiliconeSeal Waterproof Lubricant",
+    "price": "$7.99",
+    "rating": "4.4/5",
+    "lastUpdate": "2024-03-24",
+    "ownerCountry": "USA",
+    "description": "SiliconeSeal Waterproof Lubricant is specially formulated to provide long-lasting lubrication and waterproofing in one convenient product. Its silicone-based formula repels water and protects against corrosion, making it ideal for use in outdoor equipment, electrical connections, and marine applications."
+  },
+  {
+    "_id": "LUB012",
+    "image": "https://i.ibb.co/3cbDtF2/Eco-Lube-Bio-Degradable-Lubricant.jpg",
+    "name": "FarmGuard Agricultural Machinery Oil",
+    "price": "$17.99",
+    "rating": "4.7/5",
+    "lastUpdate": "2024-03-24",
+    "ownerCountry": "Canada",
+    "description": "FarmGuard Agricultural Machinery Oil is specifically designed to meet the rigorous demands of farm equipment. Its high-performance formula provides excellent lubrication and wear protection, ensuring optimal performance and extended machinery life. Suitable for use in tractors, combines, and other agricultural machinery."
+  },
+  {
+    "_id": "LUB013",
+    "image": "https://i.ibb.co/3cbDtF2/Eco-Lube-Bio-Degradable-Lubricant.jpg",
+    "name": "GearMaster Gearbox Lubricant",
+    "price": "$10.99",
+    "rating": "4.3/5",
+    "lastUpdate": "2024-03-24",
+    "ownerCountry": "UK",
+    "description": "GearMaster Gearbox Lubricant is specially formulated to provide superior lubrication and protection for gearboxes and transmission systems. Its advanced formula helps reduce friction, heat, and wear, ensuring smooth operation and extended component life. Ideal for use in automotive, industrial, and marine applications."
+  },
+  {
+    "_id": "LUB014",
+    "image": "https://i.ibb.co/3cbDtF2/Eco-Lube-Bio-Degradable-Lubricant.jpg",
+    "name": "MultiGlide All-Purpose Lubricant",
+    "price": "$6.49",
+    "rating": "4.1/5",
+    "lastUpdate": "2024-03-24",
+    "ownerCountry": "France",
+    "description": "MultiGlide All-Purpose Lubricant is a versatile lubricant suitable for a wide range of applications. Its high-quality formula provides excellent lubrication and corrosion protection for metal surfaces, plastics, and rubber parts. Perfect for use in household, automotive, and DIY projects."
+  },
+  {
+    "_id": "LUB015",
+    "image": "https://i.ibb.co/3cbDtF2/Eco-Lube-Bio-Degradable-Lubricant.jpg",
+    "name": "HydroShield Hydrophobic Lubricant",
+    "price": "$11.99",
+    "rating": "4.6/5",
+    "lastUpdate": "2024-03-24",
+    "ownerCountry": "USA",
+    "description": "HydroShield Hydrophobic Lubricant is specially formulated to repel water and provide long-lasting lubrication in wet conditions. Its hydrophobic formula forms a protective barrier on surfaces, preventing water ingress and reducing friction. Ideal for use in marine, automotive, and outdoor applications."
+  },
+  {
+    "_id": "LUB016",
+    "image": "https://i.ibb.co/3cbDtF2/Eco-Lube-Bio-Degradable-Lubricant.jpg",
+    "name": "NanoTech Lubrication Spray",
+    "price": "$13.99",
+    "rating": "4.7/5",
+    "lastUpdate": "2024-03-24",
+    "ownerCountry": "Germany",
+    "description": "NanoTech Lubrication Spray utilizes nanotechnology to provide superior lubrication and protection for various applications. Its nano-sized particles penetrate deep into surfaces, reducing friction and wear. Ideal for use in automotive, industrial, and household equipment."
+  },
+  {
+    "_id": "LUB017",
+    "image": "https://i.ibb.co/3cbDtF2/Eco-Lube-Bio-Degradable-Lubricant.jpg",
+    "name": "PrecisionGuard Machine Tool Lubricant",
+    "price": "$16.99",
+    "rating": "4.8/5",
+    "lastUpdate": "2024-03-24",
+    "ownerCountry": "Japan",
+    "description": "PrecisionGuard Machine Tool Lubricant is specially formulated to provide precise lubrication for machine tools and precision equipment. Its high-performance formula ensures smooth operation and extends tool life. Ideal for use in lathes, mills, and CNC machines."
+  },
+  {
+    "_id": "LUB018",
+    "image": "https://i.ibb.co/3cbDtF2/Eco-Lube-Bio-Degradable-Lubricant.jpg",
+    "name": "SilkLube Bicycle Grease",
+    "price": "$8.49",
+    "rating": "4.4/5",
+    "lastUpdate": "2024-03-24",
+    "ownerCountry": "Italy",
+    "description": "SilkLube Bicycle Grease is formulated specifically for bicycle components requiring grease lubrication. Its high-quality formula provides excellent protection against corrosion and wear, ensuring smooth and reliable performance. Perfect for lubricating bearings, threads, and other bike parts."
+  },
+  {
+    "_id": "LUB019",
+    "image": "https://i.ibb.co/3cbDtF2/Eco-Lube-Bio-Degradable-Lubricant.jpg",
+    "name": "TechGuard Electrical Contact Lubricant",
+    "price": "$7.99",
+    "rating": "4.3/5",
+    "lastUpdate": "2024-03-24",
+    "ownerCountry": "USA",
+    "description": "TechGuard Electrical Contact Lubricant is designed to improve electrical conductivity and protect against corrosion in electrical connections. Its high-quality formula displaces moisture and forms a protective barrier, ensuring reliable performance of electrical equipment. Ideal for use in switches, connectors, and terminals."
+  },
+  {
+    "_id": "LUB020",
+    "image": "https://i.ibb.co/3cbDtF2/Eco-Lube-Bio-Degradable-Lubricant.jpg",
+    "name": "MetalGuard Rust Inhibitor",
+    "price": "$9.99",
+    "rating": "4.5/5",
+    "lastUpdate": "2024-03-24",
+    "ownerCountry": "Canada",
+    "description": "MetalGuard Rust Inhibitor is formulated to provide long-lasting protection against rust and corrosion on metal surfaces. Its corrosion-resistant formula penetrates into crevices, displaces moisture, and forms a protective barrier, ensuring optimal protection for metal equipment and surfaces."
+  },
+  {
+    "_id": "LUB021",
+    "image": "https://i.ibb.co/3cbDtF2/Eco-Lube-Bio-Degradable-Lubricant.jpg",
+    "name": "NanoLube Engine Additive",
+    "price": "$12.99",
+    "rating": "4.6/5",
+    "lastUpdate": "2024-03-24",
+    "ownerCountry": "Germany",
+    "description": "NanoLube Engine Additive is designed to enhance engine performance and protect against wear and friction. Its nano-sized particles bond to metal surfaces, reducing friction and extending engine life. Ideal for use in gasoline and diesel engines."
+  },
+  {
+    "_id": "LUB022",
+    "image": "https://i.ibb.co/3cbDtF2/Eco-Lube-Bio-Degradable-Lubricant.jpg",
+    "name": "BioGuard Food-Grade Lubricant",
+    "price": "$14.99",
+    "rating": "4.7/5",
+    "lastUpdate": "2024-03-24",
+    "ownerCountry": "USA",
+    "description": "BioGuard Food-Grade Lubricant is specially formulated for use in food processing and packaging equipment. Its NSF H1 registered formula is odorless, tasteless, and non-toxic, ensuring compliance with food safety regulations. Perfect for lubricating food conveyor belts, slicers, and other food machinery."
+  },
+  {
+    "_id": "LUB023",
+    "image": "https://i.ibb.co/3cbDtF2/Eco-Lube-Bio-Degradable-Lubricant.jpg",
+    "name": "AeroShield Aircraft Lubricant",
+    "price": "$29.99",
+    "rating": "4.9/5",
+    "lastUpdate": "2024-03-24",
+    "ownerCountry": "Canada",
+    "description": "AeroShield Aircraft Lubricant is engineered to meet the demanding requirements of aircraft lubrication. Its high-performance formula provides exceptional protection against wear, corrosion, and extreme temperatures, ensuring safe and reliable operation of aircraft systems."
+  },
+  {
+    "_id": "LUB024",
+    "image": "https://i.ibb.co/3cbDtF2/Eco-Lube-Bio-Degradable-Lubricant.jpg",
+    "name": "SiliconePro Lubricating Grease",
+    "price": "$15.99",
+    "rating": "4.5/5",
+    "lastUpdate": "2024-03-24",
+    "ownerCountry": "Italy",
+    "description": "SiliconePro Lubricating Grease is formulated with premium silicone compounds to provide superior lubrication and protection for a wide range of applications. Its high-quality formula resists oxidation, moisture, and extreme temperatures, ensuring long-lasting performance and reliability. Perfect for use in automotive, marine, and industrial equipment."
+  },
+  {
+    "_id": "LUB025",
+    "image": "https://i.ibb.co/3cbDtF2/Eco-Lube-Bio-Degradable-Lubricant.jpg",
+    "name": "HeavyDuty Chain Lubricant",
+    "price": "$13.49",
+    "rating": "4.3/5",
+    "lastUpdate": "2024-03-24",
+    "ownerCountry": "USA",
+    "description": "HeavyDuty Chain Lubricant is specially formulated to provide superior protection and lubrication for heavy-duty chains and sprockets. Its advanced formula penetrates deep into chain links to reduce friction and wear, ensuring smooth and efficient operation. Ideal for use in motorcycles, industrial machinery, and agricultural equipment."
+  },
+  {
+    "_id": "LUB026",
+    "image": "https://i.ibb.co/3cbDtF2/Eco-Lube-Bio-Degradable-Lubricant.jpg",
+    "name": "RustGuard Penetrating Oil",
+    "price": "$8.99",
+    "rating": "4.4/5",
+    "lastUpdate": "2024-03-24",
+    "ownerCountry": "Germany",
+    "description": "RustGuard Penetrating Oil is designed to loosen rusted or seized components and provide long-lasting corrosion protection. Its penetrating formula creeps into tight spaces, displaces moisture, and loosens rust, making it ideal for use in automotive, marine, and household applications."
+  },
+  {
+    "_id": "LUB027",
+    "image": "https://i.ibb.co/3cbDtF2/Eco-Lube-Bio-Degradable-Lubricant.jpg",
+    "name": "HighTemp Bearing Grease",
+    "price": "$10.99",
+    "rating": "4.6/5",
+    "lastUpdate": "2024-03-24",
+    "ownerCountry": "USA",
+    "description": "HighTemp Bearing Grease is formulated to withstand high temperatures and provide long-lasting lubrication for bearings and other high-temperature applications. Its high-performance formula resists heat, oxidation, and water washout, ensuring reliable performance in demanding environments."
+  },
+  {
+    "_id": "LUB028",
+    "image": "https://i.ibb.co/3cbDtF2/Eco-Lube-Bio-Degradable-Lubricant.jpg",
+    "name": "NanoProtect Corrosion Inhibitor",
+    "price": "$11.99",
+    "rating": "4.7/5",
+    "lastUpdate": "2024-03-24",
+    "ownerCountry": "Canada",
+    "description": "NanoProtect Corrosion Inhibitor is designed to provide long-lasting protection against corrosion on metal surfaces. Its nano-sized particles penetrate into the metal pores, forming a durable protective barrier against moisture and corrosive elements. Ideal for use in automotive, marine, and industrial applications."
+  },
+  {
+    "_id": "LUB029",
+    "image": "https://i.ibb.co/3cbDtF2/Eco-Lube-Bio-Degradable-Lubricant.jpg",
+    "name": "TechLube Synthetic Motor Oil",
+    "price": "$22.99",
+    "rating": "4.8/5",
+    "lastUpdate": "2024-03-24",
+    "ownerCountry": "USA",
+    "description": "TechLube Synthetic Motor Oil is engineered to provide exceptional performance and protection for modern engines. Its advanced synthetic formula offers superior lubrication, thermal stability, and wear protection, ensuring optimal engine performance and longevity. Perfect for use in gasoline and diesel engines."
+  },
+  {
+    "_id": "LUB030",
+    "image": "https://i.ibb.co/3cbDtF2/Eco-Lube-Bio-Degradable-Lubricant.jpg",
+    "name": "GraphiteGuard Dry Lubricant",
+    "price": "$7.49",
+    "rating": "4.2/5",
+    "lastUpdate": "2024-03-24",
+    "ownerCountry": "UK",
+    "description": "GraphiteGuard Dry Lubricant is formulated with high-purity graphite particles to provide long-lasting lubrication and protection in dry conditions. Its dry formula resists dust and dirt buildup, reducing friction and wear on metal surfaces. Ideal for use in locks, hinges, and other moving parts."
+  }
+]
