@@ -3,6 +3,7 @@ import { Button, Divider } from "@nextui-org/react";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import SingleProduct from "./SingleProduct";
+import SectionTitle from "../utils/SectionTitle";
 export type TProduct = {
   _id: string;
   image: string;
@@ -32,11 +33,8 @@ export default function HomeProducts() {
     }
   };
   return (
-    <div className=" py-10">
-      <h3 className="text-3xl text-primary-color font-semibold">
-        Our Products
-      </h3>
-      <Divider className="my-4 bg-primary-color" />
+    <section className=" py-10">
+      <SectionTitle title="Our Products"></SectionTitle>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {products?.slice(0, see).map((product) => (
           <SingleProduct key={product?._id} product={product}></SingleProduct>
@@ -48,7 +46,7 @@ export default function HomeProducts() {
             className="text-primary-color font-semibold"
             onClick={() => handleSeeMore()}
           >
-            See Products
+            See More Products
           </Button>
         ) : (
           <Button
@@ -59,6 +57,6 @@ export default function HomeProducts() {
           </Button>
         )}
       </div>
-    </div>
+    </section>
   );
 }
