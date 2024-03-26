@@ -1,6 +1,4 @@
-import InitialCallModal from "@/components/InitialCallModal";
-import About from "@/components/aboutSection/About";
-
+import AboutSection from "@/components/aboutSection/AboutSection";
 import HeroSlider from "@/components/heroSlider/HeroSlider";
 import HomeProducts from "@/components/products/HomeProducts";
 
@@ -23,7 +21,7 @@ export default function Home() {
             </div>
             <HeroSlider></HeroSlider>
             <HomeProducts></HomeProducts>
-            <About></About>
+            <AboutSection></AboutSection>
           </div>
         </div>
       </main>

@@ -1,8 +1,8 @@
+import { Image } from "@nextui-org/react";
 import React from "react";
 import SectionTitle from "../utils/SectionTitle";
-import { Image } from "@nextui-org/react";
 
-export default function () {
+export default function AboutSection() {
   return (
     <section className="py-10">
       <SectionTitle title="About Us"></SectionTitle>
@@ -21,7 +21,7 @@ export default function () {
                 The head office of the company is located in Nilphamari
                 district. The company is mainly working as an importer and
                 exporter. <strong> Trade Asia Hrc (PVT.) Limited </strong> is
-                working tirelessly to play an important role in the country's
+                working tirelessly to play an important role in the country
                 economy.
               </p>
               <p>
