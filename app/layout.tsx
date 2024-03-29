@@ -6,7 +6,7 @@ import NavigationBar from "@/components/common/NavigationBar";
 import Footer from "@/components/common/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
-
+// meta data for seo
 export const metadata: Metadata = {
   title: "TRADE ASIA HRC (PVT.) LIMITED",
   description:
