@@ -12,6 +12,7 @@ import {
 } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
 import { LuMail } from "react-icons/lu";
+import { TbDeviceLandlinePhone } from "react-icons/tb";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -21,6 +22,7 @@ export default function Footer() {
         <div>
           <Image
             src={logo}
+            className="w-[40px] h-[40px] roulded-lg"
             alt="Trade Asia HRC"
             width={150}
             height={50}
@@ -41,8 +43,8 @@ export default function Footer() {
               <FaLocationDot></FaLocationDot>
             </p>
             <div>
-              <p>Dak Bungalow Road, </p>
-              <p>Nilphamari 5300.</p>
+              <p>Jahurul  Islam city. Aftabnagar</p>
+              <p>Dhaka-1212.</p>
             </div>
           </div>
           <div className="flex gap-2 align-top ">
@@ -50,7 +52,15 @@ export default function Footer() {
               <FaPhoneAlt />
             </p>
             <div>
-              <p>+880 1840- 46 48 38 </p>
+              <p>+88 01898-903330</p>
+            </div>
+          </div>
+          <div className="flex gap-2 align-top ">
+            <p className="w-[30px] h-[30px] bg-foreground-50 flex justify-center items-center  rounded-full">
+            <TbDeviceLandlinePhone />
+            </p>
+            <div>
+              <p>+88 02-587 74 52 34</p>
             </div>
           </div>
           <div className="flex gap-2 align-top ">

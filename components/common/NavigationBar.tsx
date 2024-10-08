@@ -29,6 +29,7 @@ export default function NavigationBar() {
         />
         <NavbarBrand>
           <Image
+          className="w-[40px] h-[40px] rounded-lg"
             src={logo}
             alt="Trade Asia HRC"
             width={150}
