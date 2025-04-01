@@ -29,16 +29,16 @@ const HeroSlider = () => {
           <SwiperSlide key={slider?.id}>
             <div className="md:grid grid-cols-2 gap-6 items-center">
               <div className="">
-                <h2 className="text-center  text-xl lg:text-3xl text-[#fe3231] font-bold mb-3">
+                <h2 className="text-center   text-xl lg:text-5xl text-[#fe3231] font-bold mb-3">
                   {slider?.title}
                 </h2>
                 <p className="text-xl text-center hidden md:block  font-semibold">
                   {slider?.subtitle}
                 </p>
               </div>
-              <div>
+              <div className="max-h-[500px]">
                 <Image
-                  className="rounded-sm w-[100%] h-[100%] object-contain"
+                  className="rounded-sm max-h-[500px] w-[100%] h-[100%] object-contain"
                   src={slider?.image}
                   width={1000}
                   height={600}

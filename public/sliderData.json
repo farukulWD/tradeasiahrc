@@ -1,41 +1,20 @@
 [
   {
     "id": 1,
-    "image": "/high-performance-vehicles.jpg",
-    "title": "Smooth Rides Await Premium Lubricants",
-    "subtitle": "Unleash Performance, Efficiency, and Longevity with Our Expert Solutions"
+    "image": "https://i.ibb.co.com/T973vPR/fz-3-banner-img-3.jpg",
+    "title": "The Perfect Door For Every Occasion",
+    "subtitle": "Stylish, Secure, and Built to Last"
   },
   {
     "id": 2,
-    "image": "/scenic-landscapes.jpg",
-    "title": "Enhance Your Engine's Lifespan",
-    "subtitle": "Discover Our Range of High-Quality Lubricants for Ultimate Protection"
+    "image": "https://i.ibb.co.com/4nL670fQ/fz-3-banner-img.png",
+    "title": "The Secret Key to a Stylish Home",
+    "subtitle": "Elegance, Security, and Timeless Design"
   },
   {
     "id": 3,
-    "image": "/mechanical-components.jpg",
-    "title": "Drive with Confidence",
-    "subtitle": "Trust Our Products to Safeguard Your Vehicle's Performance and Durability"
-  },
-
-  {
-    "id": 4,
-    "image": "/high-performance-vehicles.jpg",
-    "title": "Efficiency Redefined",
-    "subtitle": "Maximize Your Vehicle's Potential and Minimize Costs with Our Solutions"
-  },
-
-  {
-    "id": 5,
-    "image": "/high-performance-vehicles.jpg",
-    "title": "Performance Unleashed",
-    "subtitle": "Experience the Difference with Our Cutting-Edge Formulations"
-  },
-
-  {
-    "id": 6,
-    "image": "/high-performance-vehicles.jpg",
-    "title": "Stay Ahead of the Curve",
-    "subtitle": "Partner with Us for Unbeatable Lubrication Solutions and Unmatched Support"
+    "image": "https://i.ibb.co.com/LXgDm47S/fz-3-banner-img-2.jpg",
+    "title": "Make your entrance a grand one",
+    "subtitle": "Step Into Style and Sophistication"
   }
 ]
