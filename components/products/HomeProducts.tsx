@@ -7,7 +7,7 @@ import SectionTitle from "../utils/SectionTitle";
 export type TProduct = {
   _id: string;
   image: string;
-  name: string;
+  model: string;
   price: string;
   rating: string;
   lastUpdate: string;
@@ -40,7 +40,7 @@ export default function HomeProducts() {
           <SingleProduct key={product?._id} product={product}></SingleProduct>
         ))}
       </div>
-      <div className="mt-5 flex justify-center">
+      {/* <div className="mt-5 flex justify-center">
         {products.length > see ? (
           <Button
             className="text-primary-color font-semibold"
@@ -56,7 +56,7 @@ export default function HomeProducts() {
             See Less
           </Button>
         )}
-      </div>
+      </div> */}
     </section>
   );
 }
