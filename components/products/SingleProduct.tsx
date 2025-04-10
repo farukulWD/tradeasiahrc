@@ -14,7 +14,6 @@ export default function SingleProduct({ product }: { product: TProduct }) {
     price,
     rating,
     lastUpdate,
-    ownerCountry,
     description,
   } = product;
 

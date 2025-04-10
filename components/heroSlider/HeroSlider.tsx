@@ -14,18 +14,34 @@ type TSlide = {
   subtitle: string;
 };
 
+const sliderData = [
+  {
+    id: 1,
+    image: "https://i.ibb.co.com/T973vPR/fz-3-banner-img-3.jpg",
+    title: "The Perfect Door For Every Occasion",
+    subtitle: "Stylish, Secure, and Built to Last"
+  },
+  {
+    id: 2,
+    image: "https://i.ibb.co.com/4nL670fQ/fz-3-banner-img.png",
+    title: "The Secret Key to a Stylish Home",
+    subtitle: "Elegance, Security, and Timeless Design"
+  },
+  {
+    id: 3,
+    image: "https://i.ibb.co.com/LXgDm47S/fz-3-banner-img-2.jpg",
+    title: "Make your entrance a grand one",
+    subtitle: "Step Into Style and Sophistication"
+  }
+];
+
 const HeroSlider = () => {
-  const [sliders, setSliders] = useState<TSlide[]>([]);
-  useEffect(() => {
-    fetch("/sliderData.json")
-      .then((res) => res.json())
-      .then((data) => setSliders(data));
-  }, []);
+
 
   return (
     <div>
       <Swiper autoplay modules={[Autoplay]} className="mySwiper">
-        {sliders?.map((slider) => (
+        {sliderData?.map((slider) => (
           <SwiperSlide key={slider?.id}>
             <div className="md:grid grid-cols-2 gap-6 items-center">
               <div className="">
