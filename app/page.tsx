@@ -20,7 +20,7 @@ export default function Home() {
               </p>
             </div> */}
             <div className="mt-[40px]">
-            <HeroSlider></HeroSlider>
+            <HeroSlider/>
             </div>
             <HomeProducts></HomeProducts>
             <AboutSection></AboutSection>

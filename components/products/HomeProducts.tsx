@@ -14,15 +14,9 @@ export type TProduct = {
   description: string;
 };
 
-
-
-
-
-
 export default function HomeProducts() {
-  
   const [see, setSee] = useState<number>(6);
-  
+
   const products = [
     {
       _id: "LUB003",
@@ -32,7 +26,7 @@ export default function HomeProducts() {
       lastUpdate: "2024-03-24",
       model: "Model-A101",
       description:
-        "MaxGrip High-Performance Grease is designed to provide maximum protection and lubrication in demanding applications. Its advanced formula ensures superior adhesion and resistance to water washout, making it ideal for use in automotive, marine, and industrial environments."
+        "MaxGrip High-Performance Grease is designed to provide maximum protection and lubrication in demanding applications. Its advanced formula ensures superior adhesion and resistance to water washout, making it ideal for use in automotive, marine, and industrial environments.",
     },
     {
       _id: "LUB001",
@@ -42,7 +36,7 @@ export default function HomeProducts() {
       lastUpdate: "2024-03-24",
       model: "Model-A102",
       description:
-        "UltraGlide Synthetic Lubricant is specially formulated to provide superior lubrication for a wide range of applications. Its advanced synthetic formula ensures long-lasting protection against friction and wear, making it ideal for use in automotive, industrial, and household settings."
+        "UltraGlide Synthetic Lubricant is specially formulated to provide superior lubrication for a wide range of applications. Its advanced synthetic formula ensures long-lasting protection against friction and wear, making it ideal for use in automotive, industrial, and household settings.",
     },
     {
       _id: "LUB004",
@@ -52,7 +46,7 @@ export default function HomeProducts() {
       lastUpdate: "2024-03-24",
       model: "Model-A103",
       description:
-        "UltraGlide Synthetic Lubricant is specially formulated to provide superior lubrication for a wide range of applications. Its advanced synthetic formula ensures long-lasting protection against friction and wear, making it ideal for use in automotive, industrial, and household settings."
+        "UltraGlide Synthetic Lubricant is specially formulated to provide superior lubrication for a wide range of applications. Its advanced synthetic formula ensures long-lasting protection against friction and wear, making it ideal for use in automotive, industrial, and household settings.",
     },
     {
       _id: "LUB005",
@@ -62,7 +56,7 @@ export default function HomeProducts() {
       lastUpdate: "2024-03-24",
       model: "Model-A104",
       description:
-        "UltraGlide Synthetic Lubricant is specially formulated to provide superior lubrication for a wide range of applications. Its advanced synthetic formula ensures long-lasting protection against friction and wear, making it ideal for use in automotive, industrial, and household settings."
+        "UltraGlide Synthetic Lubricant is specially formulated to provide superior lubrication for a wide range of applications. Its advanced synthetic formula ensures long-lasting protection against friction and wear, making it ideal for use in automotive, industrial, and household settings.",
     },
     {
       _id: "LUB006",
@@ -72,7 +66,7 @@ export default function HomeProducts() {
       lastUpdate: "2024-03-24",
       model: "Model-A105",
       description:
-        "UltraGlide Synthetic Lubricant is specially formulated to provide superior lubrication for a wide range of applications. Its advanced synthetic formula ensures long-lasting protection against friction and wear, making it ideal for use in automotive, industrial, and household settings."
+        "UltraGlide Synthetic Lubricant is specially formulated to provide superior lubrication for a wide range of applications. Its advanced synthetic formula ensures long-lasting protection against friction and wear, making it ideal for use in automotive, industrial, and household settings.",
     },
     {
       _id: "LUB007",
@@ -82,7 +76,7 @@ export default function HomeProducts() {
       lastUpdate: "2024-03-24",
       model: "Model-A106",
       description:
-        "UltraGlide Synthetic Lubricant is specially formulated to provide superior lubrication for a wide range of applications. Its advanced synthetic formula ensures long-lasting protection against friction and wear, making it ideal for use in automotive, industrial, and household settings."
+        "UltraGlide Synthetic Lubricant is specially formulated to provide superior lubrication for a wide range of applications. Its advanced synthetic formula ensures long-lasting protection against friction and wear, making it ideal for use in automotive, industrial, and household settings.",
     },
     {
       _id: "Model-D101",
@@ -92,8 +86,8 @@ export default function HomeProducts() {
       lastUpdate: "2024-03-24",
       model: "Model-D101",
       description:
-        "UltraGlide Synthetic Lubricant is specially formulated to provide superior lubrication for a wide range of applications. Its advanced synthetic formula ensures long-lasting protection against friction and wear, making it ideal for use in automotive, industrial, and household settings."
-    }
+        "UltraGlide Synthetic Lubricant is specially formulated to provide superior lubrication for a wide range of applications. Its advanced synthetic formula ensures long-lasting protection against friction and wear, making it ideal for use in automotive, industrial, and household settings.",
+    },
   ];
   const handleSeeMore = () => {
     if (products.length < 6) {
@@ -104,10 +98,10 @@ export default function HomeProducts() {
   };
   return (
     <section className=" py-10">
-      <SectionTitle title="Our Products"></SectionTitle>
+      <SectionTitle title="Our Products" />
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {products?.slice(0, see).map((product) => (
-          <SingleProduct key={product?._id} product={product}></SingleProduct>
+          <SingleProduct key={product?._id} product={product} />
         ))}
       </div>
       {/* <div className="mt-5 flex justify-center">
