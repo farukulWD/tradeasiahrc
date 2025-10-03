@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import logo from "../../public/logo.png";
+// import logo from "../../public/logo.png"; // Removed direct import
 import { menuItems } from "../../public/menuItems";
 import Link from "next/link";
 import {
@@ -21,7 +21,7 @@ export default function Footer() {
       <div className="my_container md:grid space-y-4 grid-cols-3">
         <div>
           <Image
-            src={logo}
+            src="/logo.png"
             className="w-[40px] h-[40px] roulded-lg"
             alt="Trade Asia HRC"
             width={150}

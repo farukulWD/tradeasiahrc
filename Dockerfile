@@ -32,7 +32,15 @@ RUN npm install --production
 COPY --from=build /app/.next ./.next
 
 # Copy the public folder (images, static assets)
-COPY --from=build /app/public /public
+COPY --from=build /app/public ./public
+
+# Create a non-root user for security
+RUN addgroup -g 1001 -S nodejs
+RUN adduser -S nextjs -u 1001
+
+# Change ownership of the app directory
+RUN chown -R nextjs:nodejs /app
+USER nextjs
 
 # Expose the port Next.js will run on
 EXPOSE 3000

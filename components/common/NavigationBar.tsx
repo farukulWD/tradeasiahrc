@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import logo from "../../public/logo.png";
+// import logo from "../../public/logo.png"; // Removed direct import
 import { menuItems } from "../../public/menuItems";
 
 import {
@@ -30,7 +30,7 @@ export default function NavigationBar() {
         <NavbarBrand>
           <Image
           className="w-[40px] h-[40px] rounded-lg"
-            src={logo}
+            src="/logo.png"
             alt="Trade Asia HRC"
             width={150}
             height={50}

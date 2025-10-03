@@ -11,6 +11,8 @@ const nextConfig = {
                 hostname: "i.ibb.co.com",
             },
         ],
+        unoptimized: false,
+        formats: ['image/webp', 'image/avif'],
     },
 };
 
