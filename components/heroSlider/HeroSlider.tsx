@@ -59,7 +59,7 @@ const HeroSlider = () => {
                   width={1000}
                   height={600}
                   alt={slider?.title}
-                ></Image>
+                />
               </div>
             </div>
           </SwiperSlide>

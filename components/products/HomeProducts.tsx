@@ -20,7 +20,7 @@ export default function HomeProducts() {
   const products = [
     {
       _id: "LUB003",
-      image: "https://i.ibb.co.com/W4WPN0hG/Model-A101.png",
+      image: "/products/Model-A101.png",
       price: "$7.99",
       rating: "4.2/5",
       lastUpdate: "2024-03-24",
@@ -30,7 +30,7 @@ export default function HomeProducts() {
     },
     {
       _id: "LUB001",
-      image: "https://i.ibb.co.com/twQdRmJD/Model-A102.png",
+      image: "/products/Model-A102.png",
       price: "$9.99",
       rating: "4.5/5",
       lastUpdate: "2024-03-24",
@@ -40,7 +40,7 @@ export default function HomeProducts() {
     },
     {
       _id: "LUB004",
-      image: "https://i.ibb.co.com/yFf1Tbf2/Model-A103.png",
+      image: "/products/Model-A103.png",
       price: "$9.99",
       rating: "4.5/5",
       lastUpdate: "2024-03-24",
@@ -50,7 +50,7 @@ export default function HomeProducts() {
     },
     {
       _id: "LUB005",
-      image: "https://i.ibb.co.com/JwP1X5nx/Model-A104.png",
+      image: "/products/Model-A104.png",
       price: "$9.99",
       rating: "4.5/5",
       lastUpdate: "2024-03-24",
@@ -60,7 +60,7 @@ export default function HomeProducts() {
     },
     {
       _id: "LUB006",
-      image: "https://i.ibb.co.com/6R4rPMk0/Model-A105.png",
+      image: "/products/Model-A105.png",
       price: "$9.99",
       rating: "4.5/5",
       lastUpdate: "2024-03-24",
@@ -70,7 +70,7 @@ export default function HomeProducts() {
     },
     {
       _id: "LUB007",
-      image: "https://i.ibb.co.com/q3BWXg9f/Model-A106.png",
+      image: "/products/Model-A106.png",
       price: "$9.99",
       rating: "4.5/5",
       lastUpdate: "2024-03-24",
@@ -80,7 +80,7 @@ export default function HomeProducts() {
     },
     {
       _id: "Model-D101",
-      image: "https://i.ibb.co.com/Zpnz46M1/Model-D101.png",
+      image: "/products/Model-D101.png",
       price: "$9.99",
       rating: "4.5/5",
       lastUpdate: "2024-03-24",
